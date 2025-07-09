@@ -22,7 +22,7 @@ Built with **Streamlit**, **open-source LLMs**, **Edge TTS**, and **Vosk**, this
 
 ## 📁 Project Folder Structure
 
-
+LLM-Powered Conversational Avatar Interface
 │
 ├── app_streamlit.py # Main Streamlit UI app
 ├── voice_input.py # Real-time STT using Vosk
@@ -58,14 +58,20 @@ LLM-Powered Conversational Avatar Interface
 ---
 
 ## 🚀 How to Run the App
+## 🛠️ Getting Started
+
+### 1. Clone this repo
 
 ```bash
-# Clone the repo
-git clone https://github.com/aiza-ch/mythical_creatures_ai_app.git
-cd mythical_creatures_ai_app
+git clone https://github.com/aiza-ch/LLM-Powered-Conversational-Avatar-Interface.git
+cd LLM-Powered-Conversational-Avatar-Interface
 
-# Install dependencies
+Install dependencies:
 pip install -r requirements.txt
 
-# Launch the app
+Set your API key
+Create a file called config.py and add your Together API key like this:
+TOGETHER_API_KEY = "your-api-key-here"
+
+Run the app:
 streamlit run app_streamlit.py
