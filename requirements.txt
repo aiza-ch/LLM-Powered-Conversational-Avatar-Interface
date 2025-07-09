@@ -1,0 +1,7 @@
+transformers
+torch
+streamlit
+edge-tts
+sounddevice
+vosk
+playsound
